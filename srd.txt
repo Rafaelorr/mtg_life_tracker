@@ -1,0 +1,9 @@
+MTG Life Tracker
+voor 1 v 1 60 card games
+- begin bij 20 life
+- track poison counters
+- rad counters
+- Acorn counter
+- Energy counter
+- contract counter (een of geen)
+- experience counter
