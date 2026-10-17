@@ -22,6 +22,7 @@ class Player(tk.Frame):
         )
         self.life_counter.grid(row=1, column=0, columnspan=2)
 
+        ## Speler Life Min Knop Onderdeel
         self.life_min = tk.Button(
             self,
             text="-",
@@ -29,6 +30,7 @@ class Player(tk.Frame):
         )
         self.life_min.grid(row=2, column=0)
 
+        ## Speler Life Plus Knop Onderdeel
         self.life_plus = tk.Button(
             self,
             text="+",
@@ -45,13 +47,15 @@ class Player(tk.Frame):
         )
         self.poison_counter.grid(row=3, column=0, columnspan=2)
 
+        ## Speler Poison Min Knop Onderdeel
         self.poison_min = tk.Button(
             self,
             text="-",
             command=lambda: self.change_poison(-1)
         )
         self.poison_min.grid(row=4, column=0)
-
+        
+        ## Speler Poison Plus Knop Onderdeel
         self.poison_plus = tk.Button(
             self,
             text="+",
