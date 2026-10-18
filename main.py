@@ -11,7 +11,7 @@ class GUI:
         # Title
         self.title = tk.Label(
             self.root,
-            text="Life Tracker voor 1v1 MTG",
+            text="Life Tracker voor 1v1 Magic The Gathering",
             font=("Arial", 15)
         )
         self.title.pack(pady=10)
